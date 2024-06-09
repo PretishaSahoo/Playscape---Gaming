@@ -1,0 +1,49 @@
+.gamebox{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:40px;
+    margin-bottom:200px;
+    margin-top:70px;
+}
+
+.game1,.game2,.game3{
+    margin-top:50px;
+    border:solid 2px rgb(234, 231, 231);
+    border-radius:10px;
+    background-color: white;  
+}
+.img1,.img2{
+    height:300px;
+    width:100%;
+}
+.img3{
+    height:300px;
+    width:100%;
+}
+
+.button1,.button2,.button3{
+  background-color: rgb(140, 18, 43);
+  border-color: white;
+  border-radius: 10px;
+  font-family: cursive;
+  margin-bottom: 50px;
+}
+.footer{
+    background-color: rgb(241, 234, 234);
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding: 10px;
+    margin-top:50px;
+}
+.navy{
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+}
+.anchor{
+    text-decoration: none;
+    color:white;
+}

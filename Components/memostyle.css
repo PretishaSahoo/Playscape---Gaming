@@ -1,0 +1,56 @@
+*{
+    background-color:white;
+}
+h1{
+    color:palevioletred;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+    text-align: center;
+    
+}
+.won{
+    color:green;
+    display:none;
+}
+.turn{
+    color:black;
+    text-align:center;
+}
+.blue{
+    color:rgb(4, 4, 76);
+    text-align: center;
+}
+
+.game{
+    display:flex;
+    justify-content: center;
+}
+.mygame{
+    display:grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+    grid-gap:2px;
+}
+h4{
+    text-align:center;
+}
+.red{
+    color:crimson;
+    text-align:center;
+}
+.row1,.row2,.row3,.row4,.row5,.row6{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    grid-gap:20px;
+}
+.box{
+    height: 80px;
+    border-radius: 7px;
+    grid-gap:10px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15,.img16,.img17,.img18,.img19,.img20,.img21,.img22,.img23,.img24,.img25,.img26,.img27,.img28,.img29,.img30{
+
+    object-fit: contain;
+    transition:2s linear flip;
+}

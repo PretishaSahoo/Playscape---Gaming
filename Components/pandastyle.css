@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:darkseagreen;
+    overflow:hidden;
+}
+
+
+.gamecontainer{
+    background-size:100vw 100vh;
+    width:100%;
+    height:100vh;
+    background-color: white;
+}
+
+.panda{
+    background-image:url(Images/panda.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    resize: both;
+    overflow:visible;
+    position:absolute;
+    bottom:0;    
+}
+
+.rock{
+    background-image:url(Images/rock2.jpeg);
+    width:100x;
+    height:100px; 
+    background-size: contain;
+    background-repeat:no-repeat;
+    position:absolute;
+    bottom:0;
+    right:12px;
+}
+.gameover{
+    color:red;
+    visibility:hidden;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:solid;
+}
+.yourscore{
+    color:chartreuse;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:solid;
+}
+.animatePanda{
+    animation: panda 0.6s linear;
+}
+.animaterock{
+    animation:animaterock 5s linear infinite;
+}
+
+@keyframes panda{
+    0%{
+        bottom:0;
+    }
+    30%{
+        bottom:300px;
+    }
+    50%{
+        bottom:400px;
+    }
+    80%{
+        bottom:400px;
+    }
+    90%{
+        bottom:300px;
+    }
+    100%{
+        bottom:0px;
+    }
+
+}
+
+@keyframes animaterock{
+    0%{
+        left:100vw;
+    }
+    100%{
+        left:-10vw;
+    }
+}
