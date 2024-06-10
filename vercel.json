@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/Home.html" },
+    { "src": "/memo", "dest": "/Components/memo.html" },
+    { "src": "/tictactoe", "dest": "/Components/tictactoe.html" },
+    { "src": "/panda", "dest": "/Components/panda.html" }
+  ]
+}
