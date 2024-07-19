@@ -83,7 +83,7 @@
 #reset{
     position: absolute;
     top:20%;
-    right:200px;
+    right:10%;
     width: 120px;
     cursor:pointer;
 }
